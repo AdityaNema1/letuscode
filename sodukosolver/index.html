@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sodukosolver</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div>
+                <input type="number" style="border-top:4px solid;border-left:4px solid;" id="num1" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-top:4px solid;" id="num2" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-top:4px solid;border-right:3px dotted;" id="num3" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-top:4px solid;" id="num4" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-top:4px solid;" id="num5" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-top:4px solid;border-right:3px dotted;" id="num6" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-top:4px solid;" id="num7" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-top:4px solid;" id="num8" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-top:4px solid;border-right:4px solid;" id="num9" oninput="check_input(this)" class="text-center">
+                <br>
+                <input type="number" style="border-left:4px solid;" id="num10" oninput="check_input(this)" class="text-center">
+                <input type="number" id="num11" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-right:3px dotted;" id="num12" oninput="check_input(this)" class="text-center">
+                <input type="number" id="num13" oninput="check_input(this)" class="text-center">
+                <input type="number" id="num14" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-right:3px dotted;" id="num15" oninput="check_input(this)" class="text-center">
+                <input type="number" id="num16" oninput="check_input(this)" class="text-center">
+                <input type="number" id="num17" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-right:4px solid;" id="num18" oninput="check_input(this)" class="text-center">
+                <br>
+                <input type="number" style="border-left:4px solid;border-bottom:3px dotted;" id="num19" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-bottom:3px dotted;" id="num20" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-bottom:3px dotted;border-right:3px dotted;" id="num21" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-bottom:3px dotted;" id="num22" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-bottom:3px dotted;" id="num23" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-bottom:3px dotted;border-right:3px dotted;" id="num24" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-bottom:3px dotted;" id="num25" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-bottom:3px dotted;" id="num26" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-right:4px solid;border-bottom:3px dotted;" id="num27" oninput="check_input(this)" class="text-center">
+                <br>
+                <input type="number" style="border-left:4px solid;" id="num28" oninput="check_input(this)" class="text-center">
+                <input type="number" id="num29" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-right:3px dotted;" id="num30" oninput="check_input(this)" class="text-center">
+                <input type="number" id="num31" oninput="check_input(this)" class="text-center">
+                <input type="number" id="num32" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-right:3px dotted;" id="num33" oninput="check_input(this)" class="text-center">
+                <input type="number" id="num34" oninput="check_input(this)" class="text-center">
+                <input type="number" id="num35" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-right:4px solid;" id="num36" oninput="check_input(this)" class="text-center">
+                <br>
+                <input type="number" style="border-left:4px solid;" id="num37" oninput="check_input(this)" class="text-center">
+                <input type="number" id="num38" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-right:3px dotted;" id="num39" oninput="check_input(this)" class="text-center">
+                <input type="number" id="num40" oninput="check_input(this)" class="text-center">
+                <input type="number" id="num41" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-right:3px dotted;" id="num42" oninput="check_input(this)" class="text-center">
+                <input type="number" id="num43" oninput="check_input(this)" class="text-center">
+                <input type="number" id="num44" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-right:4px solid;" id="num45" oninput="check_input(this)" class="text-center">
+                <br>
+                <input type="number" style="border-left:4px solid;border-bottom:3px dotted;" id="num46" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-bottom:3px dotted;" id="num47" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-bottom:3px dotted;border-right:3px dotted;" id="num48" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-bottom:3px dotted;" id="num49" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-bottom:3px dotted;" id="num50" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-bottom:3px dotted;border-right:3px dotted;" id="num51" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-bottom:3px dotted;" id="num52" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-bottom:3px dotted;" id="num53" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-right:4px solid;border-bottom:3px dotted;" id="num54" oninput="check_input(this)" class="text-center">
+                <br>
+                <input type="number" style="border-left:4px solid;" id="num55" oninput="check_input(this)" class="text-center">
+                <input type="number" id="num56" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-right:3px dotted;" id="num57" oninput="check_input(this)" class="text-center">
+                <input type="number" id="num58" oninput="check_input(this)" class="text-center">
+                <input type="number" id="num59" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-right:3px dotted;" id="num60" oninput="check_input(this)" class="text-center">
+                <input type="number" id="num61" oninput="check_input(this)" class="text-center">
+                <input type="number" id="num62" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-right:4px solid;" id="num63" oninput="check_input(this)" class="text-center">
+                <br>
+                <input type="number" style="border-left:4px solid;" id="num64" oninput="check_input(this)" class="text-center">
+                <input type="number" id="num65" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-right:3px dotted;" id="num66" oninput="check_input(this)" class="text-center">
+                <input type="number" id="num67" oninput="check_input(this)" class="text-center">
+                <input type="number" id="num68" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-right:3px dotted;" id="num69" oninput="check_input(this)" class="text-center">
+                <input type="number" id="num70" oninput="check_input(this)" class="text-center">
+                <input type="number" id="num71" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-right:4px solid;" id="num72" oninput="check_input(this)" class="text-center">
+                <br>
+                <input type="number" style="border-left:4px solid;border-bottom:4px solid;" id="num73" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-bottom:4px solid;" id="num74" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-bottom:4px solid;border-right:3px dotted;" id="num75" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-bottom:4px solid;" id="num76" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-bottom:4px solid;" id="num77" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-bottom:4px solid;border-right:3px dotted;" id="num78" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-bottom:4px solid;" id="num79" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-bottom:4px solid;" id="num80" oninput="check_input(this)" class="text-center">
+                <input type="number" style="border-right:4px solid;border-bottom:4px solid;" id="num81" oninput="check_input(this)" class="text-center">
+
+                <input type="button" value="SOLVE" onclick="check()">
+                <input type="button" value="RANDOM SODUKO" onclick="soduko()">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
